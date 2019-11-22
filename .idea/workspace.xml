@@ -216,7 +216,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\MySoft\maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.1" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="C:\Users\qianfeng\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -232,12 +232,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-55" />
-    <option name="y" value="5" />
-    <option name="width" value="1020" />
-    <option name="height" value="980" />
-  </component>
+  <component name="ProjectId" id="1TyI9BkBxOuwzuM3l7PSyXA1Knu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
