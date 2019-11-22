@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wyzg-information" />
+        <module name="wyzg-registry" />
+        <module name="wyzg-interface" />
+        <module name="wyzg-service" />
+        <module name="wlkg-api-gateway" />
+        <module name="wyzg-sms" />
+        <module name="wyzg-common" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wlkg-api-gateway" options="-parameters" />
+      <module name="wyzg-common" options="-parameters" />
+      <module name="wyzg-information" options="-parameters" />
+      <module name="wyzg-interface" options="-parameters" />
+      <module name="wyzg-registry" options="-parameters" />
+      <module name="wyzg-service" options="-parameters" />
+      <module name="wyzg-sms" options="-parameters" />
+      <module name="wyzg-user" options="-parameters" />
+    </option>
+  </component>
+</project>

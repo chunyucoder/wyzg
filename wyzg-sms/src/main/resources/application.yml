@@ -1,0 +1,16 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.118.99
+    username: wyzg
+    password: 123456
+    virtual-host: /wyzg
+wyzg:
+  sms:
+    accessKeyId: LTAI4FxSLh6Aie27Z5wcHnhc # 你自己的accessKeyId
+    accessKeySecret: CnaYuCSIRT7GRT6mdGXdAp9S2U5q9Z # 你自己的AccessKeySecret
+    signName: 窝里快购商城 # 签名名称
+    verifyCodeTemplate: SMS_177253069 # 模板名称
